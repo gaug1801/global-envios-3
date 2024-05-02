@@ -1,0 +1,123 @@
+.header {
+  height: 80px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 200;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.header-menu-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  white-space: nowrap;
+}
+.header-menu-option {
+  flex: 1;
+  font-size: 16px;
+  margin-right: 10px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: font-size 0.15s, font-weight 0.15s;
+  
+}
+.header-menu-option:hover {
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.7);
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+.header-logo {
+  width: 200px;
+}
+.header #btn:active {
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.25);
+}
+.small-logo {
+  width: 40px;
+}
+.header #btn {
+  color: white;
+  font-size: 1.8rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 3px;
+  opacity: 0;
+  position: absolute;
+  right: 15px;
+  z-index: 200;
+  transition: background-color 0.15s;
+  transition: opacity 0.15s;
+  cursor: pointer;
+}
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  margin-top: 80px;
+  z-index: 500;
+  pointer-events: none;
+  opacity: 0;
+  transition: all 0.15s ease-in-out;
+}
+.dropdown-menu-row {
+  font-family: Arial;
+  background-color: rgb(246, 244, 244);
+  color: rgb(72, 72, 72);
+  width: 100%;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  transition: color .15s;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: rgb(214, 214, 214);
+}
+.dropdown-menu-row:hover {
+  color: white;
+  background-color: #05395d;
+}
+.dropdown-menu.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+@media (max-width: 750px) {
+  .header-logo {
+     padding-left: -20px;
+      width: 150px;
+  }
+  .header-menu-option {
+    opacity: 0;
+  }
+  .header #btn {
+    opacity: 1;
+  }
+}
+@media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 751px) and (max-width: 999px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

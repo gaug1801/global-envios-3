@@ -1,0 +1,23 @@
+
+body {
+  background-color: rgb(246, 244, 244);
+  margin: 0;
+}
+.background-container {
+  background-image: url(background-images/shipping-1.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+}
+.background-overlay {
+  position: absolute;
+  background-image: linear-gradient(to right, #ea2a2a, #05395d);
+  opacity: 0.5;
+  color: transparent;
+  height: 85vh;
+  width: 100%;
+}
