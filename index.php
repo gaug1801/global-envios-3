@@ -1,9 +1,20 @@
-<!-- <?php 
-  require 'db_configuration.php';
-  $sql = "SELECT * FROM `box` WHERE id = 1";
-  $row_data = mysqli_query($db, $sql);
-  echo row["destination"];
-?>-->
+<?php 
+  include("db_configuration.php");
+
+  $sql = "SELECT * FROM box";
+
+  $result = mysqli_query($conn, $sql);
+  
+  if (mysqli_fetch_assoc($result) > 0) {
+    while ($row = mysqli_fetch_assoc($result)) {
+      echo $row["service_type"] . "<br>";
+      echo $row["destination"] . "<br>";
+      echo $row["price_per_foot"] . "<br>";
+    }
+  }
+
+
+?>
 <!DOCTYPE html>
 <html>
   <head>
