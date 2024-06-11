@@ -10,7 +10,7 @@ body {
   background-size: cover;
   position: relative;
   width: 100%;
-  height: 60vh;
+  height: 450px;
 }
 .background-overlay  {
   width: 100%;
@@ -57,7 +57,7 @@ body {
 .calculator-container-inner {
   display: flex;
   flex-direction: column;
-  padding: 0 50px;
+  padding: 0px 100px;
 }
 .progress-container {
   display: flex;
@@ -84,6 +84,13 @@ body {
   border-radius: 14px;
   border: 1px rgb(194, 203, 210) solid;
   color: rgb(194, 203, 210);
+}
+.last-step {
+  color: white;
+  background-color: #ea2a2a;
+  padding: 5px 10px;
+  border-radius: 14px;
+  border: 1px white solid; 
 }
 .instructions-container {
   display: flex;
@@ -171,7 +178,8 @@ body {
 .button-container {
   padding: 20px;
 }
-.next-button {
+.next-button,
+.send-button {
   border: none;
   background-color: #ea2a2a;
   color: white;
@@ -180,4 +188,42 @@ body {
   padding: 10px 20px;
   font-size: 18px;
   border-radius: 56px;
+  transition: padding 0.15s;
+  cursor: pointer;
+}
+.next-button:hover,
+.send-button:hover,
+.prev-button:hover {
+  padding: 15px 25px;
+}
+.result-title { 
+  color: #05395d;
+  font-size: 40px;
+  font-weight: bold;
+}
+.result-display {
+  padding: 8px;
+  font-size: 12px;
+}
+.result-input-container p { 
+  color: rgb(75, 79, 88);
+}
+.prev-button {
+  border: none;
+  background-color: rgb(194, 203, 210);
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 56px;
+  transition: padding 0.15s;
+  cursor: pointer;
+}
+.button-row {
+  margin-top: 10px;
+}
+.result-row {
+  padding-bottom: 10px;
+  border-bottom: white 1px solid;
 }

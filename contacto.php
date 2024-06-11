@@ -9,29 +9,7 @@
   <body>
     <div class="background-container">
       <div class="background-overlay"></div>
-      <div class="header" id="navBar">
-        <div class="logo-container">
-          <img class="header-logo" src="images/logo-white.png" alt="">
-        </div>
-          <div class="header-menu-row">
-            <button onclick="location.href = 'index.html';" class="header-menu-option"><span>Inicio</span></button>
-            <button onclick="location.href = 'nosotros.html';" class="header-menu-option">Nosotros</button>
-            <button onclick="location.href = 'servicios.html';" class="header-menu-option">Servicios</button>
-            <button onclick="location.href = 'shipping-calculator.html';" class="header-menu-option">Calculadoras de Envios</button>
-            <button onclick="location.href = 'contacto.html';" class="header-menu-option">Contacto</button>
-            <button class="header-menu-option">Tracking</button>
-            <i class="bx bx-menu" id="btn"></i>
-          </div>
-      </div>
-
-      <div class="dropdown-menu">
-        <div onclick="location.href = 'index.html';" class="dropdown-menu-row">Inicio</div>
-        <div onclick="location.href = 'nosotros.html';" class="dropdown-menu-row">Nosotros</div>
-        <div onclick="location.href = 'servicios.html';" class="dropdown-menu-row">Servicios</div>
-        <div onclick="location.href = 'shipping-calculator.html';" class="dropdown-menu-row">Calculadora de Envios</div>
-        <div onclick="location.href = 'contacto.html';" class="dropdown-menu-row">Contacto</div>
-        <div class="dropdown-menu-row">Tracking</div>
-      </div>
+      <?php include("header.html");?>
       <div class="title-container">
         <p class="title-text">Contáctanos</p>
         <div class="subtitle-container">
@@ -110,29 +88,7 @@
     <div class="google-maps">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2823.7777241697877!2d-93.27432248784143!3d44.94818637094964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f627f131738e91%3A0xa48a6031d3a0e95f!2sGlobal%20Envios%20Express!5e0!3m2!1sen!2sus!4v1714493938122!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-section">
-          <h5>Llámanos</h5>
-          <p>Envios de Dinero: +1 612-353-4189</p>
-          <p>Envios de Paqueteria: +1 612-234-0480</p>
-        </div>
-        <div class="footer-section">
-          <h5>Dirección</h5>
-          <h5>Envio de Dinero y Cajas:</h5>
-          <p>323 E Lake St, Minneapolis, MN, 55407</p>
-          <h5>Envio de Dineros:</h5>
-          <p>6722 Penn Ave S, Richfield, MN, 55423</p>
-        </div>
-        <div class="footer-section">
-          <h5>Ponte en contacto</h5>
-          <a href="https://www.instagram.com/globalenviospaqueteria" target="_blank"><i class="bx bxl-instagram"></i></a>
-          <a href="https://www.facebook.com/" target="_blank"><i class="bx bxl-facebook-circle"></i></a>
-          <a href="https://www.whatsapp.com/" target="_blank"><i class="bx bxl-whatsapp"></i></a>
-          <p>globalenviosxp@gmail.com</p>
-        </div>
-      </div>
-    </footer>
   </body>
 </html>
+
+<?php include("footer.html");?>

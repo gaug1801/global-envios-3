@@ -1,3 +1,20 @@
+<?php 
+  // include("db_configuration.php");
+
+  // $sql = "SELECT * FROM box";
+
+  // $result = mysqli_query($conn, $sql);
+  
+  // if (mysqli_fetch_assoc($result) > 0) {
+  //   while ($row = mysqli_fetch_assoc($result)) {
+  //     echo $row["service_type"] . "<br>";
+  //     echo $row["destination"] . "<br>";
+  //     echo $row["price_per_foot"] . "<br>";
+  //   }
+  // }
+
+
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -18,45 +35,23 @@
   <body>
     <div class="background-container">
       <div class="background-overlay"></div>
-      <div class="header" id="navBar">
-        <div class="logo-container">
-          <img class="header-logo" src="images/logo-white.png" alt="">
-        </div>
-          <div class="header-menu-row">
-            <button onclick="location.href = 'index.html';" class="header-menu-option"><span>Inicio</span></button>
-            <button onclick="location.href = 'nosotros.html';" class="header-menu-option">Nosotros</button>
-            <button onclick="location.href = 'servicios.html';" class="header-menu-option">Servicios</button>
-            <button onclick="location.href = 'shipping-calculator.html';" class="header-menu-option">Calculadoras de Envios</button>
-            <button onclick="location.href = 'contacto.html';" class="header-menu-option">Contacto</button>
-            <button class="header-menu-option">Tracking</button>
-            <i class="bx bx-menu" id="btn"></i>
-          </div>
-      </div>
 
-      <div class="dropdown-menu">
-        <div onclick="location.href = 'index.html';" class="dropdown-menu-row">Inicio</div>
-        <div onclick="location.href = 'nosotros.html';" class="dropdown-menu-row">Nosotros</div>
-        <div onclick="location.href = 'servicios.html';" class="dropdown-menu-row">Servicios</div>
-        <div onclick="location.href = 'shipping-calculator.html';" class="dropdown-menu-row">Calculadora de Envios</div>
-        <div onclick="location.href = 'contacto.html';" class="dropdown-menu-row">Contacto</div>
-        <div class="dropdown-menu-row">Tracking</div>
-      </div>
-      
+       <?php include("header.html"); ?>
+
       <div class="card-container">
         <div class="splash-screen-text">
           Hasta la puerta de tu casa
         </div>
         <div class="more-info-button-container">
-          <button class="more-info-button">Precios</button>
+          <button onclick="location.href = 'shipping-calculator.php';" class="more-info-button">crear mi caja</button>
         </div>
-      </div>
-      <div class="flags-container">
-        <img class="flags" src="images/Banderas.png" alt="">
       </div>
     </div>
 
-
     <div class="flags-services-container">
+      <div class="flags-container">
+        <img class="flags" src="images/Banderas.png" alt="">
+      </div>
       <div class="services-container">
         <div class="services-container-item">
           <i class="bx bx-check"></i>
@@ -180,33 +175,11 @@
     </blockquote> 
   <script async src="//www.instagram.com/embed.js"></script>
     </div>
-
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-section">
-          <h5>Llámanos</h5>
-          <p>Envios de Dinero: +1 612-353-4189</p>
-          <p>Envios de Paqueteria: +1 612-234-0480</p>
-        </div>
-        <div class="footer-section">
-          <h5>Dirección</h5>
-          <h5>Envio de Dinero y Cajas:</h5>
-          <p>323 E Lake St, Minneapolis, MN, 55407</p>
-          <h5>Envio de Dineros:</h5>
-          <p>6722 Penn Ave S, Richfield, MN, 55423</p>
-        </div>
-        <div class="footer-section">
-          <h5>Ponte en contacto</h5>
-          <a href="https://www.instagram.com/globalenviospaqueteria" target="_blank"><i class="bx bxl-instagram"></i></a>
-          <a href="https://www.facebook.com/" target="_blank"><i class="bx bxl-facebook-circle"></i></a>
-          <a href="https://www.whatsapp.com/" target="_blank"><i class="bx bxl-whatsapp"></i></a>
-          <p>globalenviosxp@gmail.com</p>
-        </div>
-      </div>
-    </footer>
   </body>
 
   <script src="js/dropdown-menu.js"></script>
   <script src="js/index.js"></script>
 
 </html>
+
+<?php include("footer.html");?>
