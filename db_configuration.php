@@ -13,6 +13,9 @@
   }
 
   if($conn) {
-    echo"You are connected.<br>";
+    echo"";
+  }
+  else {
+    echo"Could not connect.<br>";
   }
 ?>

@@ -43,16 +43,15 @@
           Hasta la puerta de tu casa
         </div>
         <div class="more-info-button-container">
-          <button class="more-info-button">Precios</button>
+          <button onclick="location.href = 'shipping-calculator.php';" class="more-info-button">crear mi caja</button>
         </div>
-      </div>
-      <div class="flags-container">
-        <img class="flags" src="images/Banderas.png" alt="">
       </div>
     </div>
 
-
     <div class="flags-services-container">
+      <div class="flags-container">
+        <img class="flags" src="images/Banderas.png" alt="">
+      </div>
       <div class="services-container">
         <div class="services-container-item">
           <i class="bx bx-check"></i>
