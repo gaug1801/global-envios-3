@@ -39,10 +39,10 @@
   justify-content: center;
   align-items: center;
   padding-left: 40px;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 .header-logo {
-  width: 200px;
+  width: 250px;
 }
 .header #btn:active {
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.25);
@@ -83,17 +83,26 @@
   color: rgb(72, 72, 72);
   width: 100%;
   text-align: center;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  /* padding-top: 8px;
+  padding-bottom: 8px; */
   cursor: pointer;
   transition: color .15s;
   border-style: solid;
   border-width: 0.5px;
   border-color: rgb(214, 214, 214);
+  display: flex;
 }
-.dropdown-menu-row:hover {
+.dropdown-menu a {
+  color: #05395d;
+  text-decoration: none;
+  flex: 1;
+  padding: 8px 0;
+}
+.dropdown-menu-row a:hover,
+.dropdown-menu:hover {
   color: white;
   background-color: #05395d;
+  border-color: #05395d;
 }
 .dropdown-menu.active {
   opacity: 1;

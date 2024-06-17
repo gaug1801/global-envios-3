@@ -69,7 +69,7 @@ body {
 .contact-row {
   font-family: Arial;
   display: flex;
-  padding: 65px 50px 20px 50px;
+  padding: 20px 50px 20px 50px;
   justify-content: center;
 }
 .contact-row div {

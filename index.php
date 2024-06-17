@@ -55,15 +55,15 @@
       <div class="services-container">
         <div class="services-container-item">
           <i class="bx bx-check"></i>
-          <span class="services-container-item-text">Calculadora de Envios</span>
+          <a href="shipping-calculator.php"><span class="services-container-item-text">Calculadora de Envios</span></a>
         </div>
         <div class="services-container-item">
           <i class="bx bx-check"></i>
-          <span class="services-container-item-text">Tracking</span>
+          <a href="#"><span class="services-container-item-text">Tracking</span></a>
         </div>
-        <div class="services-container-item">
+        <div class="services-container-item-last">
           <i class="bx bx-check"></i>
-          <span class="services-container-item-text">Casos Legales</span>
+          <a href="servicios.php#domicilio"><span class="services-container-item-text">Casos Legales</span></a>
         </div>
       </div>
     </div>
