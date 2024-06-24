@@ -56,7 +56,7 @@
         </div>
       </div>
       <div class="service-row-container">
-        <div class="service-row-body-2">
+        <div id="domicilio" class="service-row-body-2">
           <h2>Recolección a domicilio</h2>
           <div class="break"></div>
           <div class="service-text-container">

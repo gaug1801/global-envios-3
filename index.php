@@ -1,20 +1,3 @@
-<?php 
-  // include("db_configuration.php");
-
-  // $sql = "SELECT * FROM box";
-
-  // $result = mysqli_query($conn, $sql);
-  
-  // if (mysqli_fetch_assoc($result) > 0) {
-  //   while ($row = mysqli_fetch_assoc($result)) {
-  //     echo $row["service_type"] . "<br>";
-  //     echo $row["destination"] . "<br>";
-  //     echo $row["price_per_foot"] . "<br>";
-  //   }
-  // }
-
-
-?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -26,26 +9,62 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style/header.css">
-    <link rel="stylesheet" href="style/body.css">
+    <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/general.css">
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/sidebar.css">
+    <link rel="stylesheet" href="style/carousel.css">
   </head>
   <body>
     <div class="background-container">
-      <div class="background-overlay"></div>
-
        <?php include("header.html"); ?>
-
-      <div class="card-container">
-        <div class="splash-screen-text">
-          Hasta la puerta de tu casa
-        </div>
-        <div class="more-info-button-container">
-          <button onclick="location.href = 'shipping-calculator.php';" class="more-info-button">crear mi caja</button>
-        </div>
-      </div>
+    </div>
+    <div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
+        <ol class="carousel-indicators">
+			<li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
+			<li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
+			<li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
+		    </ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img id="carousel-image" alt="First slide" class="d-block w-100" src="images/background1.png">
+        <div class="overlay"></div>
+				<div class="carousel-caption d-none d-md-block" id="carousel-caption">
+					<h5 class="animated fadeInLeft" style="animation-delay: 1s">Hasta la puerta de tu casa</h5>
+					<!-- <p class="animated fadeInLeft" style="animation-delay: 2s">Envía paquetería con nuestras redes seguras</p> -->
+					<button class="animated fadeInLeft" id="infoButton" style="animation-delay: 2s">precios</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img id="carousel-image" alt="Second slide" class="d-block w-100" src="images/background2.png">
+                <div class="overlay"></div>
+				<div class="carousel-caption d-none d-md-block" id="carousel-caption">
+					<h5 class="animated fadeInLeft" style="animation-delay: 1s">Envío de dinero seguro</h5>
+					<!-- <p class="animated fadeInLeft" style="animation-delay: 2s">Cuenta con nuestas redes seguras para mandar tu dinero a otros países</p> -->
+					<button class="animated fadeInLeft" style="animation-delay: 2s">calculadora de envíos</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img id="carousel-image" alt="Third slide" class="d-block w-100" src="images/background3.png">
+                <div class="overlay"></div>
+				<div class="carousel-caption d-none d-md-block" id="carousel-caption">
+					<h5 class="animated fadeInLeft" style="animation-delay: 1s">Más que una empresa de servicios</h5>
+					<!-- <p class="animated fadeInLeft" style="animation-delay: 2s">¡Unímos familias!</p> -->
+					<button class="animated fadeInLeft" style="animation-delay: 2s">más información</button>
+				</div>
+			</div>
+		</div>
+    <a class="carousel-control-prev" data-slide="prev" href="#carouselExampleIndicators" role="button">
+        <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" data-slide="next" href="#carouselExampleIndicators" role="button">
+        <span aria-hidden="true" class="carousel-control-next-icon"></span>
+        <span class="sr-only">Next</span>
+    </a>
     </div>
 
     <div class="flags-services-container">
@@ -55,15 +74,15 @@
       <div class="services-container">
         <div class="services-container-item">
           <i class="bx bx-check"></i>
-          <span class="services-container-item-text">Calculadora de Envios</span>
+          <a href="shipping-calculator.php"><span class="services-container-item-text">Calculadora de Envios</span></a>
         </div>
         <div class="services-container-item">
           <i class="bx bx-check"></i>
-          <span class="services-container-item-text">Tracking</span>
+          <a href="#"><span class="services-container-item-text">Tracking</span></a>
         </div>
-        <div class="services-container-item">
+        <div class="services-container-item-last">
           <i class="bx bx-check"></i>
-          <span class="services-container-item-text">Casos Legales</span>
+          <a href="servicios.php#domicilio"><span class="services-container-item-text">Casos Legales</span></a>
         </div>
       </div>
     </div>
@@ -173,10 +192,19 @@
           (@<a href="https://www.instagram.com/globalenviospaqueteria/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank">globalenviospaqueteria</a>) • Instagram photos and videos</p>
         </div>
     </blockquote> 
-  <script async src="//www.instagram.com/embed.js"></script>
+    <script async src="//www.instagram.com/embed.js"></script>
     </div>
   </body>
 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+	</script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+	</script> 
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+	</script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="js/dropdown-menu.js"></script>
   <script src="js/index.js"></script>
 

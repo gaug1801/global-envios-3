@@ -191,10 +191,14 @@ body {
   transition: padding 0.15s;
   cursor: pointer;
 }
-.next-button:hover,
-.send-button:hover,
+.next-button:hover {
+  background-color: rgb(195, 35, 35);
+}
+.send-button:hover {
+  background-color: rgb(220, 40, 40);
+}
 .prev-button:hover {
-  padding: 15px 25px;
+  background-color: rgb(166, 175, 181);
 }
 .result-title { 
   color: #05395d;
