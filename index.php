@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="style/carousel.css">
   </head>
   <body>
-    <div class="background-container">
+    
        <?php include("header.html"); ?>
-    </div>
+    
     <div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
         <ol class="carousel-indicators">
 			<li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
@@ -191,10 +191,12 @@
           <a href="https://www.instagram.com/globalenviospaqueteria/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank">Global Envíos Express</a> 
           (@<a href="https://www.instagram.com/globalenviospaqueteria/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank">globalenviospaqueteria</a>) • Instagram photos and videos</p>
         </div>
-    </blockquote> 
-    <script async src="//www.instagram.com/embed.js"></script>
+      </blockquote> 
+      <script async src="//www.instagram.com/embed.js"></script>
     </div>
   </body>
+
+  <?php include("footer.html");?>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
 	</script> 
@@ -206,8 +208,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="js/dropdown-menu.js"></script>
-  <script src="js/index.js"></script>
-
 </html>
 
-<?php include("footer.html");?>

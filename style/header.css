@@ -27,7 +27,6 @@
   color: white;
   cursor: pointer;
   transition: font-size 0.15s, font-weight 0.15s;
-  
 }
 .header-menu-option:hover {
   font-size: 18px;
@@ -69,13 +68,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
-  position: absolute;
-  margin-top: 80px;
+  width: 100%;
+  position: fixed;
+  top: 80px;
   z-index: 500;
   pointer-events: none;
   opacity: 0;
   transition: all 0.15s ease-in-out;
+  padding: 0 !important;
 }
 .dropdown-menu-row {
   font-family: Arial;
@@ -83,8 +83,6 @@
   color: rgb(72, 72, 72);
   width: 100%;
   text-align: center;
-  /* padding-top: 8px;
-  padding-bottom: 8px; */
   cursor: pointer;
   transition: color .15s;
   border-style: solid;
@@ -98,17 +96,33 @@
   flex: 1;
   padding: 8px 0;
 }
-.dropdown-menu-row a:hover,
-.dropdown-menu:hover {
+.dropdown-menu-row a:hover {
   color: white;
   background-color: #05395d;
   border-color: #05395d;
 }
-.dropdown-menu.active {
+.dropdown-menu.active, .modal.active {
   opacity: 1;
   pointer-events: auto;
+  display: block;
+  .flags-services-container {
+    z-index: 1;
+  }
 }
-@media (max-width: 750px) {
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  /* padding-top: 100px; Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+@media (max-width: 850px) {
   .header-logo {
      padding-left: -20px;
       width: 150px;
