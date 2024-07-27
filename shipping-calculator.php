@@ -60,7 +60,7 @@
             <div class="input-container-row">
               <div class="origin-input">
                 <span>Código Postal (USA)</span>
-                <input type="text" name="zip">
+                <input type="text" name="zip" required>
               </div>
             </div>
           </div>
@@ -69,7 +69,7 @@
             <div class="input-container-row">
               <div class="destination-input">
                 <span>Ciudad de Venezuela</span>
-                <select name="venezuela-cities" id="venezuela-cities">
+                <select name="venezuela-cities" id="venezuela-cities" required>
                   <option name="dest" value="default">Elija una ciudad</option>
                   <option name="dest" value="puerto-cabello">Puerto Cabello</option>
                   <option name="dest" value="punto-fijo">Punto Fijo</option>
@@ -85,15 +85,15 @@
             <div class="dimensions-row">
               <div class="dimensions">
                 <span>Alto (Pulgadas)</span>
-                <input name="height" type="number">
+                <input name="height" type="number" required>
               </div>
               <div class="dimensions">
                 <span>Largo (Pulgadas)</span>
-                <input name="length" type="number">
+                <input name="length" type="number" required>
               </div>
               <div class="dimensions">
                 <span>Ancho (Pulgadas)</span>
-                <input name="width" type="number">
+                <input name="width" type="number" required>
               </div>
             </div>
           </div>
@@ -101,7 +101,7 @@
             <div class="weight-title"> <h4>PESO</h4></div>
             <div class="weight-input-container">
               <span>Peso en libras</span>
-              <input name="weight" type="number">
+              <input name="weight" type="number" required>
             </div>
           </div>
           <div class="button-container">

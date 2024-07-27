@@ -1,3 +1,42 @@
+a, button {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.dropbtn {
+  color: white;
+  border: none;
+  background-color: transparent;
+  transition: text-shadow 0.1s;
+  font-size: 16px;
+  padding: 0 8px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #05395d;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.15s;
+}
+
+.dropdown-content a:hover {text-shadow: 0 0 3px rgba(255, 255, 255, 0.7);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropbtn:hover {
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.7);
+}
+
 .header {
   height: 80px;
   background-color: transparent;
@@ -13,25 +52,23 @@
 }
 .header-menu-row {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   height: 40px;
   white-space: nowrap;
+  position: relative;
 }
 .header-menu-option {
   flex: 1;
   font-size: 16px;
-  margin-right: 10px;
+  padding: 0 8px;
   background-color: transparent;
   border: none;
   color: white;
   cursor: pointer;
-  transition: font-size 0.15s, font-weight 0.15s;
+  transition: font-size 0.15s;
 }
 .header-menu-option:hover {
-  font-size: 18px;
-  font-weight: bold;
-  text-shadow: 0 0 2px rgba(255, 255, 255, 0.7);
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.7);
 }
 .logo-container {
   display: flex;
@@ -51,7 +88,7 @@
 }
 .bx.bx-menu {
   color: white;
-  font-size: 1.8rem;
+  font-size: 2.0rem;
   border-style: solid;
   border-width: 1px;
   border-color: white;
@@ -143,18 +180,19 @@
   }
   .header-menu-option {
     opacity: 0;
+    font-size: 0.5px;
+  }
+  .dropbtn {
+    opacity: 0;
+    font-size: 0.5px;
+    display: none;
   }
   .header #btn {
     opacity: 1;
     pointer-events: all;
     cursor: pointer;
   }
-  .header-menu-option {
-    font-size: 0.5px;
-  }
-  .header {
-    justify-content: start;
-  }
+
 }
 @media (min-width: 1000px) {
   .video-grid {
