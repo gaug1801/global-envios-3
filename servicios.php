@@ -1,3 +1,16 @@
+<?php   
+  if (!isset($_SESSION["form_submitted"])) {
+    unset($_SESSION["zip"]);
+    unset($_SESSION["venezuela-cities"]);
+    unset($_SESSION["length"]);
+    unset($_SESSION["width"]);
+    unset($_SESSION["height"]);
+    unset($_SESSION["weight"]);
+  } else {
+    unset($_SESSION["form_submitted"]); // Reset the flag
+  }
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
