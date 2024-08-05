@@ -57,7 +57,7 @@
 				<div class="carousel-caption d-none d-md-block" id="carousel-caption">
 					<h5 class="animated fadeInLeft" style="animation-delay: 1s">Envío de dinero seguro</h5>
 					<!-- <p class="animated fadeInLeft" style="animation-delay: 2s">Cuenta con nuestas redes seguras para mandar tu dinero a otros países</p> -->
-					<button class="animated fadeInLeft" style="animation-delay: 2s">calculadora de envíos</button>
+					<button class="animated fadeInLeft" style="animation-delay: 2s">cambio del día</button>
 				</div>
 			</div>
 			<div class="carousel-item">
@@ -222,4 +222,3 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="js/dropdown-menu.js"></script>
 </html>
-
