@@ -48,7 +48,7 @@
 				<div class="carousel-caption d-none d-md-block" id="carousel-caption">
 					<h5 class="animated fadeInLeft" style="animation-delay: 1s">Hasta la puerta de tu casa</h5>
 					<!-- <p class="animated fadeInLeft" style="animation-delay: 2s">Envía paquetería con nuestras redes seguras</p> -->
-					<button class="animated fadeInLeft" id="infoButton" style="animation-delay: 2s">precios</button>
+					<button class="animated fadeInLeft" id="infoButton" style="animation-delay: 2s"><a href="shipping-calculator.php">precios</a></button>
 				</div>
 			</div>
 			<div class="carousel-item">
@@ -57,7 +57,7 @@
 				<div class="carousel-caption d-none d-md-block" id="carousel-caption">
 					<h5 class="animated fadeInLeft" style="animation-delay: 1s">Envío de dinero seguro</h5>
 					<!-- <p class="animated fadeInLeft" style="animation-delay: 2s">Cuenta con nuestas redes seguras para mandar tu dinero a otros países</p> -->
-					<button class="animated fadeInLeft" style="animation-delay: 2s">cambio del día</button>
+					<button class="animated fadeInLeft" id="infoButton" style="animation-delay: 2s"><a href="https://www.riamoneytransfer.com/es-us/" target="_blank" rel="noopener noreferrer">cambio del día</a></button>
 				</div>
 			</div>
 			<div class="carousel-item">
@@ -66,7 +66,7 @@
 				<div class="carousel-caption d-none d-md-block" id="carousel-caption">
 					<h5 class="animated fadeInLeft" style="animation-delay: 1s">Más que una empresa de servicios</h5>
 					<!-- <p class="animated fadeInLeft" style="animation-delay: 2s">¡Unímos familias!</p> -->
-					<button class="animated fadeInLeft" style="animation-delay: 2s">más información</button>
+					<button class="animated fadeInLeft" id="infoButton" style="animation-delay: 2s"><a href="servicios.php">más información</a></button>
 				</div>
 			</div>
 		</div>
@@ -91,7 +91,7 @@
         </div>
         <div class="services-container-item">
           <i class="bx bx-check"></i>
-          <a href="#"><span class="services-container-item-text">Tracking</span></a>
+          <a href="https://globalenvios.multitrack.trackingpremium.us/tracking/tracking" target="_blank" rel="noopener noreferrer"><span class="services-container-item-text">Tracking</span></a>
         </div>
         <div class="services-container-item-last">
           <i class="bx bx-check"></i>

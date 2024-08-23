@@ -35,9 +35,9 @@
         <span class="nosotros-title">QUIENES SOMOS?</span>  
       </div>
       <div class="nosotros-text-container">
-        <span class="nosotros-body-1">SOMOS UNA EMPRESA DEDICADA A LA PRESTACION DE SERVICIOS DE PAQUETERIA CON AÑOS DE EXPERIENCIA EN EL MANEJO DE CARGA, REALIZAMOS ENVÍOS AÉREOS Y MARÍTIMOS DESDE ESTADOS UNIDOS HACIA SUR AMERICA Y CENTRO AMERICA</span>
-        <span class="nosotros-body-2">Nuestro personal especializado se encarga del manejo de su carga desde el momento en que se recibe la solicitud del servicio hasta que la carga es entregada a su destino final de forma efectiva y sin complicaciones, ya que nos encargamos del almacenaje, trámites aduanales, fiscales y transporte de manera segura y responsable. </span>
-        <span class="nosotros-body-2">Somos más que una empresa de envios, queremos convertirnos en su mejor aliado ofreciéndole soluciones especializadas en el manejo de su carga con los mejores tiempos de entregas y costos.</span>
+        <span class="nosotros-body-1">Somos una pequeña empresa con dos sucursales dedicadas a ofrecer una amplia gama de servicios, incluyendo transferencias de dinero, envíos de cajas a Centroamérica y Sudamérica, servicios notariales, trabajos paralegales, traducciones y fotos para pasaportes.</span>
+        <span class="nosotros-body-2">Contamos con un equipo de profesionales experimentados que se encargan de cada detalle, asegurando que todos nuestros servicios se realicen de manera eficiente y segura. Nos encargamos de todo el proceso, desde la recepción inicial hasta la entrega final, incluyendo el almacenamiento, los trámites aduanales y fiscales, y el transporte.</span>
+        <span class="nosotros-body-2">Nuestro compromiso va más allá de ser una simple empresa de servicios. Queremos ser su aliado de confianza, proporcionando soluciones especializadas y personalizadas que se adapten a sus necesidades, siempre garantizando tiempos de entrega óptimos y costos accesibles.</span>
       </div>
     </div>
 
@@ -50,12 +50,12 @@
         <div class="our-mission-container-text">
           <p class="our-mission-title">NUESTRA MISIÓN</p>
           <div class="breaker"></div>
-          <p class="our-mission-body">Servirle a nuestros clientes de forma eficaz y ser su aliado logístico garantizándoles rapidez, economía y seguridad en todas sus operaciones, de manera que marquemos la diferencia dentro del mercado competidor.</p>
+          <p class="our-mission-body">Nuestra misión es brindar a nuestros clientes un servicio excepcional, actuando como su socio logístico confiable. Nos esforzamos por asegurar rapidez, costos accesibles y la máxima seguridad en todas las operaciones, con el objetivo de sobresalir en un mercado competitivo y hacer una diferencia significativa para nuestros clientes.</p>
         </div>
         <div class="our-vision-container-text">
           <p class="our-vision-title">NUESTRA VISIÓN</p>
           <div class="breaker"></div>
-          <p class="our-vision-body">Convertirnos en el mejor aliado de nuestros clientes por la excelencia del trabajo en el manejo de las cargas desde Estados Unidos a Venezuela</p>
+          <p class="our-vision-body">Aspiramos a ser reconocidos como el socio más confiable y destacado para nuestros clientes, gracias a la excelencia en la prestación de todos nuestros servicios. Desde envíos de carga a Centroamérica y Sudamérica, hasta transferencias de dinero, servicios notariales, trabajos paralegales, traducciones y fotos para pasaportes, nuestro compromiso es proporcionar un servicio de calidad superior que nos posicione como la mejor opción en el mercado.</p>
         </div>
       </div>
       <div class="our-values-container">

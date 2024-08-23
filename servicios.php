@@ -59,56 +59,56 @@
           <img src="images/MicrosoftTeams-image-6.jpg" alt="">
         </div>
         <div class="service-row-body">
-          <h2>Mudanzas</h2>
+          <h2>Envío de Cajas</h2>
           <div class="break"></div>
           <div class="service-text-container">
             <span class="services-text">
-              En <strong>Global Envios</strong> hacemos que mudarse ya no sea un estrés para ti. Ahora ofrecemos servicio de mudanza personalizado y te ayudamos con todo para que puedas disfrutar tu nuevo hogar. Contáctanos para mayor información.
+              En <strong>Global Envios</strong>, nuestro servicio de envíos es simple y eficiente, facilitando el transporte de sus paquetes con rapidez y seguridad. Nos encargamos de todo el proceso para que pueda disfrutar de una experiencia sin complicaciones.
             </span>
           </div>
         </div>
       </div>
       <div class="service-row-container">
         <div id="domicilio" class="service-row-body-2">
-          <h2>Recolección a domicilio</h2>
+          <h2>Envíos de Dinero</h2>
           <div class="break"></div>
           <div class="service-text-container">
             <span class="services-text">
-              Buscamos tus paquetes en la comodidad de tu hogar y te brindamos asesoría para que tus envíos lleguen óptimos a su destino final.
+              En <strong>Global Envios</strong>, facilitamos sus transferencias de dinero a Centroamérica y Sudamérica con rapidez, seguridad y sin complicaciones, asegurando que su dinero llegue de manera eficiente y confiable. Nuestro equipo profesional ofrece un servicio personalizado adaptado a sus necesidades, brindándole la tranquilidad de que su dinero está en buenas manos.
             </span>
           </div>
         </div>
         <div class="service-image-container">
-          <img src="images/stock-image-2.jpg" alt="">
+          <img src="images/money-umbrella.jpg" alt="">
         </div>
         
       </div>
       <div class="service-row-container">
         <div class="service-image-container">
-          <img src="images/stock-image-3.jpg" alt="">
+          <img src="images/meeting.jpg" alt="">
         </div>
         <div class="service-row-body">
-          <h2>Carga Paletizada</h2>
+          <h2>Servicios Paralegales</h2>
           <div class="break"></div>
           <div class="service-text-container">
             <span class="services-text">
-              En <strong>Global Envios</strong> también ofrecemos envíos paletizados para que puedas enviar mayor volumen a un mejor costo, tus productos para tu negocio y/o familia.
+              En <strong>Global Envios</strong> simplificamos el acceso a servicios paralegales con un enfoque profesional, ofreciendo asistencia en la preparación y gestión de documentos legales con precisión y eficacia. Nuestro equipo experimentado maneja cada trámite con cuidado, brindándole la confianza de que su documentación está en manos expertas.
             </span>
           </div>
         </div>
       </div>
       <div class="service-row-container">
         <div class="service-row-body-2">
-          <h2>Envíos Domesticos</h2>
+          <h2>Notarización</h2>
           <div class="break"></div>
           <div class="service-text-container">
             <span class="services-text">
-              Buscamos tus paquetes en la comodidad de tu hogar y te brindamos asesoría para que tus envíos lleguen óptimos a su destino final.
+            En <strong>Global Envios</strong>, hacemos que el proceso de notaría sea sencillo y eficiente, ofreciendo servicios precisos y confiables como la certificación de documentos y validación de firmas. Nuestro equipo de notarios garantiza precisión y rapidez, asegurando el mayor cuidado y profesionalismo en el tratamiento de sus documentos.
             </span>
           </div>
         </div>
         <div class="service-image-container">
-          <img src="images/stock-image-4.png" alt="">
+          <img src="images/notary-sign.jpg" alt="">
         </div>
       </div>
     </div>

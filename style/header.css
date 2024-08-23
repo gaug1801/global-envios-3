@@ -51,6 +51,7 @@ a, button {
   height: 40px;
   white-space: nowrap;
   position: relative;
+  margin-right: 20px;
 }
 .header-menu-option {
   flex: 1;
